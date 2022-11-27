@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Auschwitz III</title>
+        <link rel="stylesheet" href="../style.css">
+        <script src="../js/tools.js"></script>
+	</head>
+	<body>
+
+    <!-- <button type="button" style="z-index: 1; position: absolute; top: 8em; left: 2em" id="imageMap">Mannheim bike rental locations</button>
+    <button type="button" style="z-index: 1; position: absolute; top: 10em; left: 2em" id="osmMap">Osm</button> -->
+
+    <div class="data-container" id="data-container-l">
+        <h2>Click for more information</h2>
+        <ul>
+            <button id="button-monowitz" onclick="toggleDisplay('monowitz-info', 3)"><li id="monowitz" class="hoverer"><span>Monowitz Memorial Monument</span></li></button>
+            <button id="button-forest" onclick="toggleDisplay('forest-info', 3)"><li id="forest" class="hoverer"><span>Monowitz Forest Area</span></li></button>
+        </ul>
+    </div>
+
+    <div class="data-container" id="data-container-lb">
+        <button id="return"><a href="../../index.html">Return to main page</a></button>
+    </div>
+
+    <div class="data-container" id="data-container-r">
+        <!-- MONOWITZ MEMORIAL -->
+        <div id="monowitz-info" class="block-info" style="display: none;">
+            <h2>Monowitz Memorial</h2>
+            <p>
+                A few months after the liberation of the Buna/Monowitz concentration camp by the Red Army on January 27, 1945, the camp was closed, and in its place the village of Monowice, 
+                previously torn down, was rebuilt by the returning Polish inhabitants. At the site of the concentration camp remain only isolated traces of what shaped its image for three years. 
+                The local residents raised funds to erect a white stone cross and a plaque to commemorate those who were murdered in the camp. It has this inscription in Polish:
+            </p>            
+            <p>
+                "In memory of those who were murdered in the years 1941–1945 in Subcamp IV. The residents of Monowice."
+            </p>
+            <p>
+                At the edge of the grounds of the factory, which was continued as a Polish state-owned enterprise, the town of Oświęcim put up a monument to those murdered during the construction. 
+                It consists of four ultralarge stone columns, whose shape is reminiscent of the fence pillars of the concentration camps. Between them stretches a huge piece of barbed wire. In front 
+                of them, memorial plaques are set into the ground, with these words in a variety of languages.
+            </p>
+            <img src="../images/monowitz_memorial.PNG" alt="Monowitz Memorial - Auschwitz-Birkenau">
+            <p class="source"><span class="sourceSpan">Source:</span>www.wollheim-memorial.de</p>
+        </div>
+
+        <!-- MONOWITZ CONCENTRATION CAMP FOREST -->
+        <div id="forest-info" class="block-info" style="display: none;">
+            <h2>Monowitz Concentration Camp Area</h2>
+            <p>
+                The camp in Monowice (Auschwitz III Monowitz-Buna)  was one of the first and also the largest of the Auschwitz sub camps. Finally it became the central for all 30 
+                “industrial” sub camps where prisoners were employed as slaves.
+            </p>
+            <p>
+                It housed around 12,000 prisoners, mostly Jews, and prisoners of war who generally got easier jobs. These prisoners worked at the IG
+                Farben synthetic rubber factory, which collaborated with the SS. The factory was fully build and operated by the prisoners housed in the concentration
+                camp, who received the strict dose of food, shelter and construction tools. Within a few months of being established, death of prisoners from starvation or exhaustion was 
+                commonplace, with a constant stream of new workers.
+            </p>
+            <p>
+                Monowitz was the only Auschwitz camp to be bombed by the Allies. Since then the Buna factory presented a military objective. Due to these bombardments in 1944, the 
+                construction of Buna was not completed and not one gram of rubber was ever produced. Eventually Monowitz became the largest forced labor camp in Auschwitz.
+            </p>
+            <img src="../images/monowitz.jpg" alt="Monowitz Concentration Camp Forest Area - Auschwitz-Birkenau">
+            <p class="source"><span class="sourceSpan">Source:</span> Auschwitz-Birkenau Memorial & Museum & www.routeyou.com</p>
+        </div>
+    </div>
+    
+		
+    <script src="https://threejs.org/build/three.js"></script> 
+    <script src="../js/dat.gui.js"></script>
+    <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://threejs.org/examples/js/controls/FlyControls.js"></script>
+    <script src="https://threejs.org/examples/js/controls/TrackballControls.js"></script>    
+    <script src="../js/auschwitz-III.js"></script>
+	</body>
+</html>

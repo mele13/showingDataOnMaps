@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ausschwitz I</title>
+        <link rel="stylesheet" href="../style.css">
+        <script src="../js/tools.js"></script>
+	</head>
+	<body>
+
+    <!-- <button type="button" style="z-index: 1; position: absolute; top: 8em; left: 2em" id="imageMap">Mannheim bike rental locations</button>
+    <button type="button" style="z-index: 1; position: absolute; top: 10em; left: 2em" id="osmMap">Osm</button> -->
+
+    <div class="data-container" id="data-container-l">
+        <h2>Click for more information</h2>
+        <ul>
+            <button id="button-b4" onclick="toggleDisplay('b4-info', 1)"><li id="b4" class="hoverer"><span>Block 4: the Register Book block</span></li></button>
+            <button id="button-b6" onclick="toggleDisplay('b6-info', 1)"><li id="b6" class="hoverer"><span>Block 6: Life of prisoners</span></li></button>
+            <button id="button-b7" onclick="toggleDisplay('b7-info', 1)"><li id="b7" class="hoverer"><span>Block 7: Living Conditions</span></li></button>
+            <button id="button-b11" onclick="toggleDisplay('b11-info', 1)"><li id="b11" class="hoverer"><span>Block 11: the Block of Death</span></li></button>
+            <button id="button-b20" onclick="toggleDisplay('b20-info', 1)"><li id="b20" class="hoverer"><span>Block 20: the Hospital block</span></li></button>
+            <button id="button-exec" onclick="toggleDisplay('exec-info', 1)"><li id="exec" class="hoverer"><span>The Death Wall - corridor</span></li></button>
+            <button id="button-gasChI" onclick="toggleDisplay('gasChI-info', 1)"><li id="gasChI" class="hoverer"><span>Gas Chamber I / Crematorium I</span></li></button>
+            <button id="button-arbeit" onclick="toggleDisplay('arbeit-info', 1)"><li id="arbeit" class="hoverer"><span>Arbeit macht frei Gate</span></li></button>
+        </ul>
+    </div>
+
+    <div class="data-container" id="data-container-lb">
+        <button id="return"><a href="../../index.html">Return to main page</a></button>
+    </div>
+
+    <div class="data-container" id="data-container-r">
+        <!-- BLOCK 4 -->
+        <div id="b4-info" class="block-info" style="display: none;">
+            <h2>Block 4</h2>
+            <p>The Register of Block 4 was kept from January 20, 1942 to August 22, 1942. It contains 2100 entries referring to 
+                2047 male prisoners of various nationalities brought to KL Auschwitz between May 1940 and August 1942. 53 
+                prisoners were registered twice due to their movement from the block (e.g. to the camp hospital, penalty 
+                company) and back.
+            </p>
+            <p>The tables in which the data of prisoners was entered, were drawn manually. Each page of the record was divided 
+                into seven columns described on the internal cover. Individual columns were filled with the following data: 
+                prisoner number (“Häftl. Nr.” – Häftlingsnummer), full name (“Vor.- U. Zuname” – Vor- und Zuname), date and 
+                place of birth (“Geb. Datum u. Ort” – Geburtsdatum und -ort), profession (“Beruf”), kommando in which the 
+                prisoner worked (“Kommando”), assigned from (“Eingelief.” – Eingeliefert), and the number of the room in which a 
+                prisoner was placed (“Stube”).       </p>
+            <img src="../images/bl4.jpg" alt="Block 4 - Auschwitz I">
+            <p class="source"><span class="sourceSpan">Source:</span> Auschwitz-Birkenau Memorial & Museum</p>
+        </div>
+
+        <!-- BLOCK 6 -->
+        <div id="b6-info" class="block-info" style="display: none;">
+            <h2>Block 6</h2>            
+            <p>
+                A presentation of the treatment of people imprisoned in Auschwitz from the moment of admission (procedures for 
+                registration, assignment and marking of a camp number, classification in the appropriate prisoner category, 
+                prisoner garments and footwear).
+            </p>
+            <p>
+                Everyday camp reality was also shown through reproductions of former prisoner Mieczysław Kościelniak's series A 
+                Day in the Life of a Prisoner. The block also contained enlarged camp mug shots of victims with camp number, 
+                name, date of birth, occupation (if known), date of arrival in the camp, and date of death.
+            </p>
+            <img src="../images/bl6.jpg" alt="Block 6 - Auschwitz I" id="block6-img">
+            <p class="source"><span class="sourceSpan">Source:</span> Auschwitz-Birkenau Memorial & Museum</p>
+        </div>
+
+        <!-- BLOCK 7 -->
+        <div id="b7-info" class="block-info" style="display: none;">
+            <h2>Block 7</h2>            
+            <p>
+                Illustration of the living and sanitary-hygienic conditions for prisoners in various phases of the existence of the camp. 
+                Original camp interiors contained reconstructions of the appearance of residential rooms in the main camp and a 
+                reconstruction of part of the interior of a brick barracks.
+            </p>
+            <p>
+                Living conditions were also illustrated through photographs and reproductions of artwork by former prisoners. As in 
+                block 6, there were enlarged prisoner mug shots here.
+            </p>
+            <img src="../images/bl7.jpg" alt="Block 7 - Auschwitz I" id="block7-img">
+            <p class="source"><span class="sourceSpan">Source:</span> Auschwitz-Birkenau Memorial & Museum</p>
+        </div>
+
+        <!-- BLOCK 11 -->
+        <div id="b11-info" class="block-info" style="display: none;">
+            <h2>Block 11</h2>
+            <p>Prisoners also underwent punishment in block 11, in regular cells, dark cells, or standing cells. 
+                Punishment here was usually connected with suspected sabotage, contact with civilians, escape attempts 
+                or aid to escapees, or apprehension while escaping. The windows in the normal cells had windows that were 
+                partially bricked up from the outside, and the inmates could sleep on wooden bunks. Rather than windows, 
+                the dark cells had vents covered on the outside by metal screens with air holes punched in them. Prisoners 
+                slept on the bare floor. Confinement in the dark cells lasted from several days to several weeks. Prisoners 
+                confined to death by starvation for escape attempts, or after being selected as hostages in reprisal for 
+                escapes by others, were held in the dark cells. From the beginning of 1942, prisoners were also punished 
+                by confinement in standing cells. These were four spaces measuring less than 1 sq. m. each. The only source 
+                of air was a 5 x 5 cm. opening covered with a metal grille. Entry to the standing cell was through a small 
+                opening at floor level, closed with bars and a wooden hatch. Four prisoners were confined in each of these 
+                spaces for the night. They had to go to work in the morning. The punishment was applied for periods from 
+                several nights up to several weeks in a row.
+            </p>
+            <img src="../images/bl11.jpg" alt="Block 11 - Auschwitz I">
+            <p class="source"><span class="sourceSpan">Source:</span> Auschwitz-Birkenau Memorial & Museum</p>
+        </div>
+
+        <!-- BLOCK 20 -->
+        <div id="b20-info" class="block-info" style="display: none;">
+            <h2>Block 20</h2>
+            <p>In the archives of the Auschwitz-Birkenau State Museum there is an original Record Book of block 20 hospital. 
+                It is a register of male prisoners admitted to the contagious diseases ward in block 20 in the mother camp 
+                Auschwitz I.
+            </p>
+            <p>The document contains 321 pages. Columns, in which data on the “patients” of block 20 was entered, were filled 
+                in by hand. Each page is divided into the following 9 columns: the date of the entry (“Tag”), item no. 
+                (“Lf.  No..” - Laufende Nummer), prisoner number (“Hftl. No..” - Häftling Nummer), name and surname (“Name u. 
+                Vorname” - Name und Vorname), date of birth (“Geburtsdatum”), place of birth (“Geburtsort”), block or subcamp, 
+                to which prisoner belonged (“Block”), date of leaving block 20 (“Tag des Abg.” - Tag des Abgang), date of death 
+                (“Tag des Todes”), remarks (“Bemerkungen”).
+            </p>
+            <p>The contagious diseases ward housed prisoners suffering from typhus, starvation diarrhea, tuberculosis, meningitis, 
+                erysipelas or from general weakness. These prisoners had different fates. Many of them, were chosen to be 
+                exterminated in numerous selections made by the Lagerarzt in hospital rooms. They were slain in one room on the 
+                ground floor of block 20.
+            </p>
+            <img src="../images/bl20.jpg" alt="Block 20 - Auschwitz I">
+            <p class="source"><span class="sourceSpan">Source:</span> Auschwitz-Birkenau Memorial & Museum</p>
+        </div>
+
+        <!-- EXECUTION CORRIDOR & WALL -->
+        <div id="exec-info" class="block-info" style="display: none;">
+            <h2>The Death Wall</h2>
+            <p>Located in the yard at the side of block 11. The condemned were led to the wall for execution. SS men shot several 
+                thousand people there—mostly Polish political prisoners and, above all, members of clandestine organizations.
+            </p>
+            <p>
+                Executions were also carried out here on Poles brought in from outside with death sentences, including hostages 
+                detained in reprisal for Polish resistance movement operations. Cases are known in which prisoners from other 
+                groups—Jews and Soviet POWs—were shot. The wall was dismantled in 1944, while the camp was still in existence. 
+                This did not mean the end of executions, however. Prisoners were also subjected to other form of punishment in 
+                the yard, including flogging and "the post."
+            </p>
+            <img src="../images/death_wall.jpg" alt="The Death Wall - Auschwitz I" id="death-img">
+            <p class="source"><span class="sourceSpan">Source:</span> Auschwitz-Birkenau Memorial & Museum</p>
+        </div>
+
+        <!-- GAS CHAMBER I -->
+        <div id="gasChI-info" class="block-info" style="display: none;">
+            <h2>Gas Chamber I</h2>
+            <p>This object is preserved in an original state to a large degree. Crematorium I operated from August 1940 in a 
+                prewar ammunition bunker adapted for its new function. The largest room was a morgue, which was changed into a 
+                provisional gas chamber. There were three furnaces for burning corpses in crematorium I, ordered by the camp 
+                administration from the Topf and Söhne company, which installed them.
+            </p>
+            <p>
+                When the gas chambers in Birkenau were going into operation, the camp authorities transferred the mass killing 
+                operation there and gradually phased out the first gas chamber. In July 1943, after the completion of the 
+                Birkenau crematoria, the burning of corpses in crematorium I ended. The furnaces and chimney were dismantled, 
+                and the holes in the roof used for introducing Zyklon B were closed. Two of the three furnaces and the chimney 
+                were reconstructed (from original parts), and several of the holes in the roof of the gas chamber were reopened.
+            </p>
+            <p>
+                Outside the boundaries of the Museum, the railroad siding and unloading platform (the so-called Judenramp or "old 
+                ramp") is commemorated. Transports of Jews deported for killing, and also of Roma and prisoners of other 
+                nationalities, arrived here from 1942-1944.
+            </p>
+            <img src="../images/gas_chamber.jpg" alt="Gas Chamber I - Auschwitz I">
+            <p class="source"><span class="sourceSpan">Source:</span> Auschwitz-Birkenau Memorial & Museum</p>
+        </div>
+
+        <!-- ARBEIT MACHT FREI GATE -->
+        <div id="arbeit-info" class="block-info" style="display: none;">
+            <h2>Arbeit macht frei Gate</h2>
+            <p>This object is preserved in an original state to a large degree. Crematorium I operated from August 1940 in a 
+                prewar ammunition bunker adapted for its new function. The largest room was a morgue, which was changed into a 
+                provisional gas chamber. There were three furnaces for burning corpses in crematorium I, ordered by the camp 
+                administration from the Topf and Söhne company, which installed them.
+            </p>
+            <p>
+                When the gas chambers in Birkenau were going into operation, the camp authorities transferred the mass killing 
+                operation there and gradually phased out the first gas chamber. In July 1943, after the completion of the 
+                Birkenau crematoria, the burning of corpses in crematorium I ended. The furnaces and chimney were dismantled, 
+                and the holes in the roof used for introducing Zyklon B were closed. Two of the three furnaces and the chimney 
+                were reconstructed (from original parts), and several of the holes in the roof of the gas chamber were reopened.
+            </p>
+            <p>
+                Outside the boundaries of the Museum, the railroad siding and unloading platform (the so-called Judenramp or "old 
+                ramp") is commemorated. Transports of Jews deported for killing, and also of Roma and prisoners of other 
+                nationalities, arrived here from 1942-1944.
+            </p>
+            <img src="../images/arbeit_macht_frei_gate.jpg" alt="Arbeit macht frei gate - Auschwitz I">
+            <p class="source"><span class="sourceSpan">Source:</span> www.timesofisrael.com</p>
+        </div>
+    </div>
+    
+		
+    <script src="https://threejs.org/build/three.js"></script> 
+    <script src="../js/dat.gui.js"></script>
+    <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://threejs.org/examples/js/controls/FlyControls.js"></script>
+    <script src="https://threejs.org/examples/js/controls/TrackballControls.js"></script>
+    <!--script src="/script_44_mapa.js"></script-->
+    <!-- <script src="script_46_mapaosm.js"></script> -->
+    <!-- <script src="tarea_final_mapaosm.js"></script> -->
+    <script src="../js/auschwitz-I.js"></script>
+    <!-- <script src="auschwitz-birkenau.js"></script>
+    <script src="auschwitz-monowitz.js"></script> -->
+
+    <!-- <script>
+        const scripts = [];
+
+        function mannheimScript(load) {
+            if (load) {
+                var germanyScript = document.createElement('script');
+                germanyScript.setAttribute('src', 'tarea_final_mapaosm.js');
+                document.head.appendChild(germanyScript);
+                scripts.push(germanyScript);
+            } else document.head.removeChild(scripts[0]);            
+        }
+    </script> -->
+	</body>
+</html>

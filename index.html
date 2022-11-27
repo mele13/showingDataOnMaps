@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Showing data on maps - IG10</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 { font-family: "Poppins", sans-serif }
+        .w3-bar-block .w3-bar-item { padding: 20px }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+        style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close menu</a>
+        <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Mannheim bike rental locations map</a>
+        <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">NY?</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Auschwitz I</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Auschwitz II</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Auschwitz III</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+            <a href="tools/html/index_spanish.html"><div class="w3-right w3-padding-16">Spanish</div></a>
+            <div class="w3-center w3-padding-16">Choose an option</div>
+        </div>
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <a href="tools/html/mannheim.html"><div class="w3-half">
+                <img src="tools/images/mannheim.jpg" alt="Sandwich" style="width:500px; height:300px">
+                <h3>Mannheim bike rental locations</h3>
+                <p>Check all the available bike rentals on the center of Mannheim.</p>
+            </div></a>
+            <a href="tools/html/siam-park.html"><div class="w3-half">
+                <img src="tools/images/siam_park.jpg" alt="Sandwich" style="width:500px; height:300px">
+                <h3>Siam Park</h3>
+                <p>Check all the main attractions in Siam Park.</p>
+            </div></a>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <a href="tools/html/auschwitz-I.html"><div class="w3-half">
+                <img src="tools/images/auschwitz_I.PNG" alt="Steak" style="width:500px; height:300px">
+                <h3>Auschwitz I</h3>
+                <p>Check all the important buildings on Auschwitz I.</p>
+            </div></a>
+            <a href="tools/html/auschwitz-II.html"><div class="w3-half">
+                <img src="tools/images/auschwitz_birkenau.jpg" alt="Popsicle" style="width:500px; height:300px">
+                <h3>Auschwitz-Birkenau</h3>
+                <p>Check all the important buildings on Auschwitz II / Auschwitz - Birkenau.</p>
+            </div></a>
+        </div>     
+
+        <!-- Third Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <a href="tools/html/auschwitz-III.html" style="text-decoration: none;"><div>
+                <img src="tools/images/auschwitz_monowitz.PNG" alt="Salmon" style="width:500px; height:300px">
+                <h3>Ausschwitz-Monowitz</h3>
+                <p>Check all the important buildings on Auschwitz III / Auschwitz - Monowitz.</p>
+            </div></a>
+        </div>        
+
+        <!-- Footer -->
+        <footer class="w3-row-padding w3-padding-32">
+            <div class="w3-half">
+                <h3>About</h3>
+                <p>This project is the 10th homework of Graphic Computer Science which encouraged us to explore the display of elements 
+                    contained in OSM xml as well as loading open data previously downloaded as a csv file into a map - eg. image map, osm map, etc
+                </p>
+                <p>Template by <a href="https://www.w3schools.com/" target="_blank">w3.css</a></p>
+            </div>
+
+            <div class="w3-half">
+                <h3>Developers</h3>
+                <ul class="w3-ul">                    
+                    <li class="w3-padding-16">
+                        <span class="w3-large">@Leyrerod</span><br>
+                        <span>Leyre Rodríguez Quintana</span>
+                    </li>
+                    <li class="w3-padding-16">
+                        <span class="w3-large">@Mele13</span><br>
+                        <span>Mariana Surós Álvarez</span>
+                    </li>
+                </ul>
+            </div>
+           
+        </footer>
+
+        <!-- End page content -->
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

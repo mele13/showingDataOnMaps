@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.data-container {
+  position: absolute;
+  width: 25%;
+  height: fit-content;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #f0f8ff25; /* Transparent background */
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
+  /* transition: .5s all ease; */
+}
+
+#data-container-l { left: 2%; top: 3%; }
+#data-container-r { right: 2%; top: 3%; }
+#data-container-lb { left: 2%; bottom: 3%; text-align: center;}
+
+#return a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 17px;
+}
+
+/* .data-container:hover {
+  width: 50%;
+  height: fit-content;
+  background-color: #00000099;
+} */
+
+h2 { text-align: center; }
+
+ul {
+  font-size: 22px;
+  list-style: square;
+}
+
+ul li::before {
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+li span { color: whitesmoke; }
+
+/* Auschwitz I, Auschwitz II, Auschwitz II & Siam Park */
+#b4, #forest, #gate, #water_slides { color: #7CFF00; }
+#b6, #b22b, #parkings { color: #0B09AC; }
+#b7, #terezin, #residentials { color: #FBFF00; }
+#b11, #gasch { color: #C30000; }
+#b20, #swimming_pools, #ruins  { color: #00FFF7; }
+#exec, #tennis_court, #cstrb { color: #FF7F48; }
+#gasChI, #monowitz, #b31, #bike_locations { color: #F00BFF; }
+#arbeit { color: #10503F; }
+#elevator { color: #FF1C3E; }
+#bus_station { color: #155D08; }
+#commercials { color: #F448FF; }
+
+img {
+  width: 60%;
+  height: auto;
+}
+
+#death-img, #block6-img, #birkenau-img, #selection-img { width: 90%; }
+.block-info { text-align: center; }
+
+.block-info p {
+  margin: 1%;
+  padding: 1%;
+}
+
+.source { font-size: 13px; }
+.sourceSpan { font-weight: bold; }
+
+button {
+  background-color: transparent;
+  color: transparent;
+  border: transparent;
+  font-size: 100%;
+  margin-bottom: 1.5%;
+  cursor: pointer;
+}
