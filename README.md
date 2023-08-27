@@ -29,9 +29,6 @@ To get started with the project, follow these steps:
    ```bash
    https://github.com/mele13/showingDataOnMaps.git
    ```
-   ```bash
-   cd FSM
-   ```
 2. Open the project in a suitable development environment or web server.
 3. Open the `index.html` file in a modern web browser that supports WebGL (e.g. Chrome) or use Live Server extension with VS Code.
 
@@ -49,7 +46,7 @@ Commit your changes: git commit -m 'Add feature: your feature name'
 Push to the branch: git push origin feature/your-feature-name
 Create a pull request explaining your changes.
 
-Enjoy exploring the 3D Living Room Scene and have fun interacting with the objects!
+Enjoy exploring the project!
 
 ## Disclaimer
 This project is developed exclusively for educational purposes as part of a university project. It is a frontend-only application without backend integration.
